@@ -1,0 +1,30 @@
+{
+    "name": "thiagoarioli/yii2-grid-view-one-search",
+    "description": "Yii2 Extension for GridView with OneSearch",
+    "type": "yii2-extension",
+    "homepage": "https://github.com/thiagoarioli/yii2-yii2-grid-view-one-search",
+    "keywords": [
+        "yii2",
+        "yii",
+        "widget",
+        "one search",
+        "datatable",
+        "datatables",
+        "plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Oliveira",
+            "email": "thiagoariolimendes@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0",
+    },
+    "autoload": {
+        "psr-4": {"thiagoarioli\\onesearch\\": "src/"}
+    }
+}
