@@ -1,7 +1,6 @@
 
-var input;
+var input = $(filter_selector);
 var submit_form = false;
-console.log(filter_selector);
 
 
 $("body").on('beforeFilter', "#grid-id" , function(event) {
